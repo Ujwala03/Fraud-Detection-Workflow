@@ -1,21 +1,24 @@
-# Final Project: Fraud Transaction Pipeline
+# Final Project: Fraud-Detection-Workflow
 
 **Dataset** : You can download the dataset [here](https://drive.google.com/file/d/1LmPGE7Vgn1yYszM0s9nwfmwr36RHI3BB/view?usp=drive_link) <br>
 **Presentation Deck** : View presentation deck [here](https://www.canva.com/design/DAFp8g3_K-M/4F6yNiyhJDTIdD6i_OhaVA/view?utm_content=DAFp8g3_K-M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 <br>
 <br>
 
-## Bussiness Understanding
-### Problem Description
-A Digital Wallet company has quite a large amount of online transaction data. The company wants to acknowledging data limitation and uncertainties such as inaccurate or missing crucial information data. On the other hand, the company also wants to use online transaction data to detect online payment fraud that harms their business.
+Business Understanding
+Problem Statement
 
-### Goals
-Create a data pipeline that can be utilised for analysis and reporting to determine whether online transaction data has excellent data quality and can be used to detect fraud in online transactions. 
+A Digital Wallet company handles a substantial volume of online transaction data. However, the data may contain limitations and uncertainties such as missing, incomplete, or inaccurate information, which could affect its reliability. At the same time, the company aims to leverage this transaction data to identify and prevent fraudulent online payments that pose risks to its business.
 
-### Project Objectives
-- Create an **automated pipeline** that facilitates the batch and stream data processing from various data sources to data warehouses and data mart.
-- Create a **visualization dashboard** to obtain meaningful insights from the data, enabling informed business decisions.
+Goals
 
+Develop a robust data pipeline that enables comprehensive analysis and reporting to assess the quality of online transaction data and its suitability for detecting fraudulent activities.
+
+Project Objectives
+
+Build an automated data pipeline that supports both batch and real-time data processing, efficiently transferring information from diverse data sources into data warehouses and data marts for further analysis.
+
+Design and implement a visual analytics dashboard that provides actionable insights, helping stakeholders make data-driven decisions and improve fraud detection strategies.
 ## Pipeline Architecture
 
 ![architecture](images/architecture.png)
